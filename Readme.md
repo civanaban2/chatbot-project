@@ -24,7 +24,7 @@
 1. Open terminal and clone the repository:   
    Terminali açın ve repoyu klonlayın: 
    ```
-   git clone https://github.com/zaferemre/CartApp-MTH404.git [directory name]
+   git clone https://github.com/civanaban2/chatbot-project.git [directory name]
 2. Navigate to project directory:  
    Proje dizinine ilerleyin:
    ```
