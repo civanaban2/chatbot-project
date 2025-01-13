@@ -31,7 +31,7 @@ namespace ChatBotProject.Controllers
         
         public IActionResult Index()
         {
-            var chatHistory = HttpContext.Session.Get<List<string>>("ChatHistory") ?? new List<string>();
+            var chatHistory = HttpContext.Session.Get<List<string>>("ChatHistory") ?? [];
 
             if (chatHistory.Count == 0)
             {
