@@ -23,15 +23,15 @@
 
 1. Open terminal and clone the repository:   
    Terminali açın ve repoyu klonlayın: 
-   ```bash
+   ```
    git clone https://github.com/zaferemre/CartApp-MTH404.git [directory name]
 2. Navigate to project directory:  
    Proje dizinine ilerleyin:
-   ```bash
+   ```
    cd [directory name]/chatbot-project
 3. Manage nugets on IDE or Run this commands on terminal:  
    IDE üzerinden veya direkt terminalden gerekli nuget paketlerini kurun:
-   ```bash
+   ```
    dotnet add package Azure.AI.OpenAI
    dotnet add package Newtonsoft.Json
 ---
@@ -42,14 +42,13 @@
    
 3. Build project:  
    Projeyi derleyin:
-   ```bash
+   ```
    dotnet build
 4. Run project:  
    Projeyi çalıştırın:
-   ```bash
+   ```
    dotnet run
 5. Once the server is running, it will generate a localhost URL (e.g., `http://localhost:3000`). Open your browser and navigate to given port:  
    Sunucu açıldığında bir link oluşturulacak (örneğin `http://localhost:3000`). Tarayıcınızı açın ve atanan adrese gidin:
    ```
    http://localhost:[Your Port]
-   ```
