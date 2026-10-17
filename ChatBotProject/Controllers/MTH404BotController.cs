@@ -43,7 +43,7 @@ namespace ChatBotProject.Controllers
             {
                 ChatHistory = chatHistory
             };
-            return View(model);
+            return View("~/Views/MTH404Bot/Index.cshtml", model);
         }
         
         [HttpPost]
@@ -68,7 +68,7 @@ namespace ChatBotProject.Controllers
             }
             model.ChatHistory = chatHistory;
 
-            return View(model);
+            return View("~/Views/MTH404Bot/Index.cshtml", model);
         }
     }
 }
