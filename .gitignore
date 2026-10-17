@@ -1,0 +1,12 @@
+**/bin/
+**/obj/
+/packages/
+.vs/
+.idea/
+*.user
+*.suo
+*.iml
+_ReSharper.Caches/
+.DS_Store
+.env
+.env.*
